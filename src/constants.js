@@ -7,6 +7,5 @@ export default {
   LOG10E:  'Math.LOG10E',
   PI:      'Math.PI',
   SQRT1_2: 'Math.SQRT1_2',
-  SQRT2:   'Math.SQRT2',
-  SD:      '100'
+  SQRT2:   'Math.SQRT2'
 };
