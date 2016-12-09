@@ -8,5 +8,5 @@ export default {
     PI: 'Math.PI',
     SQRT1_2: 'Math.SQRT1_2',
     SQRT2: 'Math.SQRT2',
-    "USER_LOCALE": '(((typeof window !== "undefined")&&(typeof window.navigator !== "undefined"))? window.navigator.language : "en")'
+    USER_LOCALE: '(((typeof window !== "undefined")&&(typeof window.navigator !== "undefined"))? window.navigator.language : "en")'
 };
