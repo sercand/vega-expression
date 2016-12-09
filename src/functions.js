@@ -24,6 +24,8 @@ export default function(codegen) {
       REGEXP = 'RegExp';
 
   return {
+    // Custom
+    
     // MATH functions
     isNaN:    'isNaN',
     isFinite: 'isFinite',
@@ -75,7 +77,7 @@ export default function(codegen) {
     utcminutes:      fn('getUTCMinutes', DATE, 0),
     utcseconds:      fn('getUTCSeconds', DATE, 0),
     utcmilliseconds: fn('getUTCMilliseconds', DATE, 0),
-
+    timelocale:      fn('toLocaleString', DATE, 1),
     // shared sequence functions
     length:      fn('length', null, -1),
     indexof:     fn('indexOf', null),

@@ -240,6 +240,7 @@ tape('Evaluate expressions with white list', function(test) {
   test.equal(evaluate('utcminutes(datetime(2001,1,1))'), d.getUTCMinutes());
   test.equal(evaluate('utcseconds(datetime(2001,1,1))'), d.getUTCSeconds());
   test.equal(evaluate('utcmilliseconds(datetime(2001,1,1))'), d.getUTCMilliseconds());
+  test.equal(evaluate('timelocale(datetime(2001,1,1), USER_LOCALE, {weekday: "short"})'), d.toLocaleString("en", {weekday: 'short'}));
 
   for (var date=1; date<=7; ++date) {
     d = new Date(2001, 1, date);
